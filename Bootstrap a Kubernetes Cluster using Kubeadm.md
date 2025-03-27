@@ -314,7 +314,7 @@ If not: Run the following commands
 kubectl get pods -A -o wide
 ```
 ```
-kubectl delete pod <corednspodname>
+kubectl delete pod <corednspodname> -n kube-system
 ```
 Repeat for both pods
 Now Verify:
